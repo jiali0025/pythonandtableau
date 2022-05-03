@@ -126,23 +126,3 @@ data = data.drop(['Year', 'Month'], axis = 1) # drop multiple columns
 
 # export into csv
 data.to_csv('ValueInc_Cleaned.csv', index = False)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
